@@ -1,7 +1,7 @@
 # mict_openworm_model
 MICT Based Framework for the Openworm Project
 
-## MICT Framework for Modeling C. elegans (Conceptual Outline)
+## MICT Framework for Modeling C. elegans
 
 This repository explores the application of the **Mobius Inspired Cyclical Transformation (MICT)** framework, specifically its hierarchical extension (HCTS), as a potential conceptual and computational structure for modeling the nematode worm *Caenorhabditis elegans*.
 
