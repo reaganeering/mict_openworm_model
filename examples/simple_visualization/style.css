@@ -1,0 +1,39 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+#visualization-canvas {
+    border: 1px solid black;
+    margin-top: 15px;
+    background-color: #f0f0f0;
+}
+
+#controls {
+    margin-bottom: 15px;
+}
+
+#state-display {
+    margin-top: 15px;
+    font-family: monospace;
+    font-size: 0.9em;
+    padding: 10px;
+    border: 1px dashed #ccc;
+    min-width: 380px;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+button {
+    padding: 8px 15px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+button:disabled {
+    cursor: not-allowed;
+    opacity: 0.6;
+}
