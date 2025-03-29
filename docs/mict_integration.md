@@ -31,7 +31,7 @@ config = {
 
 self.engine = MICT(config)
 self.currentState = self.engine.currentState
-```python
+```
 
 #State Management
 currentState: Each MICT instance maintains its own currentState object (a Python dictionary or JavaScript object). This object encapsulates all the relevant information for that specific cycle at that point in time.
