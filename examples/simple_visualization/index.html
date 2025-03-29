@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MICT Simple Visualizer Example</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>MICT Simple Visualizer Example</h1>
+    <p>Demonstrates connecting a MICT cycle state to a simple HTML5 Canvas visualization.</p>
+
+    <div id="controls">
+        <button id="start-button">Start Cycle</button>
+        <button id="stop-button">Stop Cycle</button>
+    </div>
+
+    <canvas id="visualization-canvas" width="400" height="300"></canvas>
+
+    <div id="state-display">Initializing...</div>
+
+    <!-- Import the MICT framework and the visualizer logic -->
+    <!-- IMPORTANT: type="module" is required for ES6 imports -->
+    <script type="module" src="visualizer.js"></script>
+
+</body>
+</html>
